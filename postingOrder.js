@@ -10,8 +10,7 @@ const posts = [
     });
   };
 
-  //listPosts();
-  
+    
   const addPost = (post) => {
     const promise1 = new Promise((resolve, reject) => {
       if (post) {
